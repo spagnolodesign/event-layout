@@ -16,9 +16,14 @@ export const Button = styled.a`
   border-top-left-radius: 15px;
   letter-spacing: 1.5px;
   margin-bottom: 1em;
-
+  transition: 0.2s;
   @media (min-width: 768px) {
     display: inline-block;
+  }
+
+  &:hover{
+    opacity:0.9;
+    transform: translateY(-0.2em);
   }
 `
 

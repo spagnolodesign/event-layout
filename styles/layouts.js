@@ -11,3 +11,14 @@ export const Section = styled.section`
   margin: 3em 0;
 `
 
+export const FlexContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+`
+

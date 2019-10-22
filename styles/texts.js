@@ -28,6 +28,7 @@ export const Title = styled.h1`
   text-transform: ${props => props.uppercase ? "uppercase" : "none"};
   font-weight: normal;
   margin:0;
+  line-height: 1.2;
   @media (min-width: 768px) {
     font-size: 4em;
   }

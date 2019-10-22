@@ -4,7 +4,7 @@ import { FlexEvent, EventDetail } from '../styles/overlay';
 
 const InfoLines = () => (
   <FlexEvent>
-    <EventDetail>
+    <EventDetail sticktoleft>
       <TopTitle uppercase>When</TopTitle>
       <SmallTitle>28-29 JUN</SmallTitle>
       <Text nomargin>Dalle 18.00 alle 21.00</Text>

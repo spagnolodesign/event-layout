@@ -93,58 +93,6 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/Carousel.js":
-/*!********************************!*\
-  !*** ./components/Carousel.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_texts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/texts */ "./styles/texts.js");
-/* harmony import */ var _carousel_SwiperCarousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./carousel/SwiperCarousel */ "./components/carousel/SwiperCarousel.js");
-var _jsxFileName = "/Users/lucaspagnolo/code/spagnolodesign/event-layout/components/Carousel.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-// Styled-componets
-
-
-
-const Carousel = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["TopTitle"], {
-  uppercase: true,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, "Prodotti in promo"), __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["Text"], {
-  soft: true,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, "Vieni a scoprire Yesly, Bliss e Lumos. Approfitta delle condizioni speciali a te riservate. "), __jsx(_carousel_SwiperCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}));
-
-/* harmony default export */ __webpack_exports__["default"] = (Carousel);
-
-/***/ }),
-
 /***/ "./components/Hero.js":
 /*!****************************!*\
   !*** ./components/Hero.js ***!
@@ -156,40 +104,68 @@ const Carousel = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_texts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/texts */ "./styles/texts.js");
+/* harmony import */ var _styles_layouts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/layouts */ "./styles/layouts.js");
+/* harmony import */ var _styles_texts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/texts */ "./styles/texts.js");
 var _jsxFileName = "/Users/lucaspagnolo/code/spagnolodesign/event-layout/components/Hero.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 // Styled-componets
 
 
-const Hero = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
-}, __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["TopTitle"], {
-  uppercase: true,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, "Area Europa"), __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["Title"], {
-  uppercase: true,
+
+const Hero = () => __jsx(_styles_layouts__WEBPACK_IMPORTED_MODULE_1__["FlexContainer"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}, "Elektrotechnick\xE1 v\xFDstava"), __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+}, __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, "La partecipazione all'evento \xE8 gratuita, ma \xE8 necessario effettuare l'iscrizione online."));
+}, __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_2__["TopTitle"], {
+  uppercase: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Area Europa"), __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_2__["Title"], {
+  uppercase: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "Elektrotechnick\xE1", __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}), "v\xFDstava"), __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, "La partecipazione all'evento \xE8 gratuita, ma \xE8 necessario effettuare l'iscrizione online.")), __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "/assets/images/logo.png",
+  alt: "logo",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+})));
 
 /* harmony default export */ __webpack_exports__["default"] = (Hero);
 
@@ -222,6 +198,7 @@ const InfoLines = () => __jsx(_styles_overlay__WEBPACK_IMPORTED_MODULE_2__["Flex
   },
   __self: undefined
 }, __jsx(_styles_overlay__WEBPACK_IMPORTED_MODULE_2__["EventDetail"], {
+  sticktoleft: true,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -311,6 +288,58 @@ const InfoLines = () => __jsx(_styles_overlay__WEBPACK_IMPORTED_MODULE_2__["Flex
 }, "M.  mario.rossi@finder.com")));
 
 /* harmony default export */ __webpack_exports__["default"] = (InfoLines);
+
+/***/ }),
+
+/***/ "./components/Products.js":
+/*!********************************!*\
+  !*** ./components/Products.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_texts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/texts */ "./styles/texts.js");
+/* harmony import */ var _carousel_SwiperCarousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./carousel/SwiperCarousel */ "./components/carousel/SwiperCarousel.js");
+var _jsxFileName = "/Users/lucaspagnolo/code/spagnolodesign/event-layout/components/Products.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+// Styled-componets
+
+
+
+const Products = () => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["TopTitle"], {
+  uppercase: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "Prodotti in promo"), __jsx(_styles_texts__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+  soft: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, "Vieni a scoprire Yesly, Bliss e Lumos. Approfitta delle condizioni speciali a te riservate. "), __jsx(_carousel_SwiperCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Products);
 
 /***/ }),
 
@@ -555,7 +584,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_base_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/base.css */ "./styles/base.css");
 /* harmony import */ var _styles_base_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_base_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Hero */ "./components/Hero.js");
-/* harmony import */ var _components_Carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Carousel */ "./components/Carousel.js");
+/* harmony import */ var _components_Products__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Products */ "./components/Products.js");
 /* harmony import */ var _components_InfoLines__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/InfoLines */ "./components/InfoLines.js");
 /* harmony import */ var _styles_texts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/texts */ "./styles/texts.js");
 /* harmony import */ var _styles_layouts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/layouts */ "./styles/layouts.js");
@@ -613,7 +642,7 @@ const Index = () => __jsx(_styles_layouts__WEBPACK_IMPORTED_MODULE_6__["MainCont
     lineNumber: 21
   },
   __self: undefined
-}), __jsx(_components_Carousel__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}), __jsx(_components_Products__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
@@ -767,7 +796,7 @@ __webpack_require__.r(__webpack_exports__);
 const Button = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a.withConfig({
   displayName: "buttons__Button",
   componentId: "sc-187ntfn-0"
-})(["font-family:'Oswald',sans-serif;display:block;padding:1em 1em;margin-right:1em;border:2px solid #019EE1;width:auto;text-transform:", ";background:", ";color:", ";text-decoration:none;text-align:center;border-bottom-right-radius:15px;border-top-left-radius:15px;letter-spacing:1.5px;margin-bottom:1em;@media (min-width:768px){display:inline-block;}"], props => props.uppercase ? "uppercase" : "none", props => props.primary ? "#019EE1" : "white", props => props.primary ? "white" : "#019EE1");
+})(["font-family:'Oswald',sans-serif;display:block;padding:1em 1em;margin-right:1em;border:2px solid #019EE1;width:auto;text-transform:", ";background:", ";color:", ";text-decoration:none;text-align:center;border-bottom-right-radius:15px;border-top-left-radius:15px;letter-spacing:1.5px;margin-bottom:1em;transition:0.2s;@media (min-width:768px){display:inline-block;}&:hover{opacity:0.9;transform:translateY(-0.2em);}"], props => props.uppercase ? "uppercase" : "none", props => props.primary ? "#019EE1" : "white", props => props.primary ? "white" : "#019EE1");
 const CloseButton = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a.withConfig({
   displayName: "buttons__CloseButton",
   componentId: "sc-187ntfn-1"
@@ -779,13 +808,14 @@ const CloseButton = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.a.w
 /*!***************************!*\
   !*** ./styles/layouts.js ***!
   \***************************/
-/*! exports provided: MainContainer, Section */
+/*! exports provided: MainContainer, Section, FlexContainer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MainContainer", function() { return MainContainer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Section", function() { return Section; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FlexContainer", function() { return FlexContainer; });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -797,6 +827,10 @@ const Section = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.section
   displayName: "layouts__Section",
   componentId: "sc-17n32yv-1"
 })(["margin:3em 0;"]);
+const FlexContainer = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.section.withConfig({
+  displayName: "layouts__FlexContainer",
+  componentId: "sc-17n32yv-2"
+})(["display:flex;flex-direction:column;width:100%;align-items:center;@media (min-width:768px){flex-direction:row;justify-content:space-between;}"]);
 
 /***/ }),
 
@@ -831,7 +865,7 @@ const FlexEvent = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.secti
 const EventDetail = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "overlay__EventDetail",
   componentId: "sc-1jgnrf9-3"
-})(["flex-grow:1;padding:1em 0em;border-top:1px solid #D0D8DB;@media (min-width:768px){max-width:33%;padding-left:1em;border-left:", ";border-right:", ";}"], props => props.withborder ? "1px solid #D0D8DB" : "0", props => props.withborder ? "1px solid #D0D8DB" : "0");
+})(["flex-grow:1;padding:1em 0em;border-top:1px solid #D0D8DB;@media (min-width:768px){max-width:33%;padding-left:", ";;border-left:", ";border-right:", ";}"], props => props.sticktoleft ? "0" : "1em", props => props.withborder ? "1px solid #D0D8DB" : "0", props => props.withborder ? "1px solid #D0D8DB" : "0");
 
 /***/ }),
 
@@ -902,7 +936,7 @@ const TopTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h3.wit
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.h1.withConfig({
   displayName: "texts__Title",
   componentId: "sc-19t63i6-2"
-})(["font-family:'Oswald',sans-serif;color:#333333;text-transform:", ";font-weight:normal;margin:0;@media (min-width:768px){font-size:4em;}"], props => props.uppercase ? "uppercase" : "none");
+})(["font-family:'Oswald',sans-serif;color:#333333;text-transform:", ";font-weight:normal;margin:0;line-height:1.2;@media (min-width:768px){font-size:4em;}"], props => props.uppercase ? "uppercase" : "none");
 const SmallTitle = styled_components__WEBPACK_IMPORTED_MODULE_0___default()(Title).withConfig({
   displayName: "texts__SmallTitle",
   componentId: "sc-19t63i6-3"

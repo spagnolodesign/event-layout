@@ -29,7 +29,7 @@ export const EventDetail = styled.div`
   border-top: 1px solid #D0D8DB;
   @media (min-width: 768px) {
     max-width: 33%;
-    padding-left: 1em;
+    padding-left: ${props => props.sticktoleft ? "0" : "1em"}; ;
     border-left: ${props => props.withborder ? "1px solid #D0D8DB" : "0"}; 
     border-right: ${props => props.withborder ? "1px solid #D0D8DB" : "0"}; 
   }

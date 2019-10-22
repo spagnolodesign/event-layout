@@ -3,7 +3,7 @@ import '../styles/base.css';
 
 // Functional Components
 import Hero from '../components/Hero';
-import Carousel from '../components/Carousel';
+import Products from '../components/Products';
 import InfoLines from '../components/InfoLines';
 
 // Styled-componets
@@ -19,7 +19,7 @@ const Index = () => (
         <CloseButton floatright />
         <Hero />
         <InfoLines />
-        <Carousel />
+        <Products />
         <Section>
           <TopTitle uppercase>TEMATICHE</TopTitle>
           <Text soft>Un evento dedicato a YESLY, il nuovo sistema di comfort living di Finder pensato per controllare le funzionalità di ogni stanza in modo semplice ed intuitivo. Ecco il programma dell'evento:</Text>
